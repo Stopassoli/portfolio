@@ -99,8 +99,8 @@ ul {
 	position: relative;
 	min-width: 400px;
 	overflow: hidden;
-
 	padding-top: 60px;
+	width: 100%;
 }
 
 .container .col2 .card {
