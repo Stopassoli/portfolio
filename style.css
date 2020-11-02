@@ -195,7 +195,7 @@ ul {
 
     height: 100vh;
 	padding-top: 60px;
-	position: -webkit-sticky;
+	/*position: -webkit-sticky;*/
 	position: sticky;
 	top: 0;
 }
@@ -203,4 +203,19 @@ ul {
 .c-truth {
 	position: fixed;
 	z-index: -1;
+}
+
+
+
+
+/*@media (max-width: 575.98px)  {
+	html {
+		background: red;
+	}
+}*/
+
+@media (max-width: 767.98px) {
+	.container .col3 {
+		display: none;
+	}
 }
