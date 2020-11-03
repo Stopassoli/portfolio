@@ -20,7 +20,7 @@ body {
     max-width: 1260px;
     margin: 0 auto;
 
-    height: 100%;
+    /*height: 100%;*/
 }
 
 a {
@@ -207,6 +207,10 @@ ul {
 
 @media screen and (max-width: 576px) {
 
+	html {
+		padding: 0px 32px 0px 32px;
+	}
+
 	.container .col1 {
 		display: none;
 	}
@@ -247,6 +251,10 @@ ul {
 	.container .col2 ul.card-projetos {
 		margin-top: 40px;
 		/*margin-top: 56px;*/
+	}
+
+	.container .col2 .card {
+		padding: 40px 32px;
 	}
 
 	.container .col2 .card p {
