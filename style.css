@@ -19,6 +19,8 @@ body {
     flex-direction: column;
     max-width: 1260px;
     margin: 0 auto;
+
+    height: 100%;
 }
 
 a {
@@ -209,15 +211,6 @@ ul {
 		display: none;
 	}
 
-
-	.menu-mobile li {
-		list-style: none;
-		line-height: 140%;
-		font-size: 32px;
-		font-weight: 600;	
-	}
-
-
 	.menu-mobile{
 		display: block;
 		font-size: 24px;
@@ -225,6 +218,14 @@ ul {
 		display: flex;
 		/*justify-content: space-between;*/
     }
+
+	.menu-mobile li {
+		list-style: none;
+		line-height: 140%;
+		/*font-size: 32px;*/
+		font-size: 24px;
+		font-weight: 600;	
+	}
 
     .menu-mobile li a {
 		color: #000000;
@@ -242,12 +243,19 @@ ul {
 		padding: 4px 16px;
 	}
 
-	.container .col2 .card, .container .col2 ul.card-projetos {
-		margin-top: 56px;
+	.container .col2 .card,
+	.container .col2 ul.card-projetos {
+		margin-top: 40px;
+		/*margin-top: 56px;*/
+	}
+
+	.container .col2 .card p {
+		font-size: 16px;
 	}
 
 
 	.container .col3 {
 		display: none;
 	}
+
 }
