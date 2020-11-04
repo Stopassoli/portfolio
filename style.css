@@ -208,7 +208,11 @@ ul {
 @media screen and (max-width: 576px) {
 
 	html {
-		padding: 0px 32px 0px 32px;
+		padding: 0px 16px 0px 16px;
+	}
+
+	.c-truth {
+		right: 32px;
 	}
 
 	.container .col1 {
@@ -218,8 +222,11 @@ ul {
 	.menu-mobile{
 		display: block;
 		font-size: 24px;
-		padding-top: 170px;
+		/*padding-top: 170px;*/
+		padding-top: 11px;
 		display: flex;
+
+		flex-direction: column;
 		/*justify-content: space-between;*/
     }
 
@@ -228,7 +235,9 @@ ul {
 		line-height: 140%;
 		/*font-size: 32px;*/
 		font-size: 24px;
-		font-weight: 600;	
+		font-weight: 600;
+
+		margin-bottom: 4px;
 	}
 
     .menu-mobile li a {
