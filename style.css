@@ -223,20 +223,15 @@ ul {
 	.menu-mobile{
 		display: block;
 		font-size: 24px;
-		/*padding-top: 170px;*/
 		display: flex;
-
 		flex-direction: column;
-		/*justify-content: space-between;*/
     }
 
 	.menu-mobile li {
 		list-style: none;
 		line-height: 140%;
-		/*font-size: 32px;*/
 		font-size: 24px;
 		font-weight: 600;
-
 		margin-bottom: 8px;
 	}
 
@@ -259,7 +254,6 @@ ul {
 	.container .col2 .card,
 	.container .col2 ul.card-projetos {
 		margin-top: 40px;
-		/*margin-top: 56px;*/
 	}
 
 	.container .col2 .card {
